@@ -1,0 +1,37 @@
+.flexbox {
+  width: 99%;
+  margin: 5%;
+  background-color: darkgray;
+  flex-wrap: wrap;
+}
+
+.flexelement {
+  background-color: aquamarine;
+  text-align: center;
+}
+
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+box1 {
+  float: left;
+}
+.box1 img {
+  width: 600px;
+}
+.box1 figcaption {
+  width: 250px;
+  text-align: justify;
+}
+.box2 {
+  width: 600px;
+  height: fit-content;
+}
+.box3 {
+  width: 600px;
+  height: fit-content;
+}
+.box4 {
+}
